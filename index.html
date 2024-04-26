@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebBasic</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="https://png.pngtree.com/png-clipart/20230207/original/pngtree-beauty-logo-design-png-image_8947095.png">
+    <script src="https://kit.fontawesome.com/f0add9272d.js"></script>
+</head>
+<body>
+    <!-- Contact -->
+    <div class="contact">
+        <div style="width: 1280px;display: flex;justify-content: space-between;">
+            <!-- email-add -->
+            <div class="emailadd">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-envelope" style="color: rgb(233, 130, 19); font-size: 22px;"></i>
+                        <p style="color: rgb(78, 78, 76);"> info@company.com</p>
+                    </li>
+                    
+                    <li>
+                        <p style="color: rgb(204, 204, 198);">
+                            |
+                        </p>
+                    </li>
+                    
+                    <li>
+                        <i class="fa-solid fa-map" style="color: rgb(233, 130, 19);font-size: 22px;"></i>
+                        <p style="color: rgb(78, 78, 76);"> Sunny Isles Beach, FL 33160</p>
+                    </li>
+                </ul>
+            </div>
+            <!-- link -->
+            <div class="link">
+                <ul>
+                    <li>
+                        <i class="fa-brands fa-facebook"></i>
+                </li>
+                <li>
+                    <i class="fa-brands fa-twitter"></i>
+                </li>
+                <li>
+                    <i class="fa-brands fa-linkedin"></i>
+                </li>
+                <li>
+                    <i class="fa-brands fa-instagram"></i>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header-menu -->
+    <header id="myHeader">
+        <div class="logo">
+            <p>THANHTUNG</p>
+        </div>
+
+        <div class="navbar">
+            <div class="menu">
+                <ul>
+                    <li id="active">Home</li>
+                    <li>Properties</li>
+                    <li>Property Details</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+
+            <div class="gift">
+                <i class="fa-solid fa-gift"></i>
+                <p>Schedule a visit</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- slide -->
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/banner-01.jpg" style="width:1480px; height: 650px;">
+        </div>
+        
+        <div class="mySlides fade">
+            <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/banner-02.jpg" style="width:1480px; height: 650px;">
+        </div>
+        
+        <div class="mySlides fade">
+            <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/banner-03.jpg" style="width:1480px; height: 650px;">
+        </div>
+        
+        <div style="display: flex; width: 1440px; justify-content: space-between; position: absolute; top: 250px; padding-left: 20px; padding-right: 20px;">
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <div style="display: flex;left: 150px ;text-align: center ;position: absolute; bottom: 20px; padding-left: 20px; padding-right: 20px;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+    <!-- main -->
+    <main>
+        <!-- best -->
+        <div class="best" style="position: relative;">
+            <!-- pic-best -->
+            <div>
+                <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/featured.jpg" alt="">
+            </div>
+            <!-- featured -->
+            <div class="fea">
+                <p style="color: rgb(221, 108, 108); font-weight: bold;">| FEATURED</p>
+                <h1 style="margin-top: 20px; margin-bottom: 80px;">Best Appartment <br>& Sea View</h1>
+                <ul>
+                    <li>
+                        <p>Best useful links</p>
+                    </li>
+                    <li>
+                        <p>How does this work</p>
+                    </li>
+                    <li>
+                        <p>Why is Villa Agency the best?</p>
+                    </li>
+                </ul>
+            </div>
+            <!-- payment -->
+            <div class="pay" style="margin-left: 50px;">
+                <ul>
+                    <li style="margin-left: -6px;">
+                        <img src="	https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/info-icon-01.png" alt="" style="widows: 40px; height: 40px;">
+                        <div>
+                            <h2>250 m2</h2>
+                            <p>Total Flat Space</p>
+                        </div>
+                    </li>
+                    <li style="margin-left: -6px;">
+                        <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/info-icon-02.png" alt="" style="widows: 40px; height: 40px;">
+                        <div>
+                            <h2>Contract</h2>
+                            <p>Contract Ready</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/info-icon-03.png" alt="" style="widows: 40px; height: 40px;">
+                        <div>
+                            <h2>Payment</h2>
+                            <p>Payment Process</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/info-icon-04.png" alt="" style="widows: 40px; height: 40px;">
+                        <div>
+                            <h2>Safely</h2>
+                            <p>24/7 Under Control</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="banana" style="position: absolute;background-color: rgb(247, 108, 15); border-radius: 50%; width: 100px; height: 100px; display: flex; justify-content: center; align-items: center; bottom: 10px; left: -25px;">
+                <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/featured-icon.png" alt="" style="width: 55px; height: 55px;">
+            </div>
+        </div>
+
+        <!-- | VIDEO VIEW -->
+        <div class="view">
+            <p style="font-weight: bold; color: rgb(224, 87, 52); margin-bottom: 20px; margin-top: -200px;">| VIDEO VIEW</p>
+            <h1>Get Closer View &<br> Different Feeling</h1>
+        </div>
+
+        <!-- video-view -->
+        <div style=" display: flex;justify-content: center;align-items: center;top: 1700px;position: absolute;width: 900px; height: 450px; border-radius: 20px;background-image: url('https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/video-frame.jpg');">
+            <button style="border: 10px solid rgb(236, 104, 64);border-radius: 50%; width: 50px; height: 50px; display: flex; justify-content: center; align-items: center;">
+                <a style="font-size: 18px;text-decoration: none;" href="https://www.youtube.com/watch?v=5GL9JoH4Sws&list=RD5GL9JoH4Sws&start_radio=1">🍕</a>
+            </button>
+        </div>
+
+        <!-- number -->
+        <div class="number">
+            <ul>
+                <li>
+                    <h1 style="color: rgb(233, 79, 8); font-weight: bold;">34</h1>
+                    <p style="font-weight: bold;">Buildings<br>Finished Now</p>
+                    <div style="position: absolute;width: 40px; height: 40px; top: -20px;left: 220px;background-color: rgb(243, 142, 26); border-radius: 50%;"></div>
+                </li>
+                <li>
+                    <h1 style="color: rgb(233, 79, 8); font-weight: bold;">12</h1>
+                    <p style="font-weight: bold;">Years<br>Experience</p>
+                    <div style="position: absolute;width: 40px; height: 40px; top: -20px;left: 220px;background-color: rgb(243, 142, 26); border-radius: 50%;"></div>
+                </li>
+                <li>
+                    <h1 style="color: rgb(233, 79, 8); font-weight: bold;">24</h1>
+                    <p style="font-weight: bold;"> Awwards<br>Won 2024</p>
+                    <div style="position: absolute;width: 40px; height: 40px; top: -20px;left: 220px;background-color: rgb(243, 142, 26); border-radius: 50%;"></div>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <!-- best-dell -->
+    <div style="justify-content: center;display: flex;margin-top: 70px;width: 100%; background-color: #fafafa; height: 730px; align-items: center;">
+        <div class="bestdeal">
+            <div style="display: flex; justify-content: space-between;">
+                <div style="font-size: 40px; font-weight: bold;">
+                    <h3 style="font-size: 15px;color: rgb(250, 94, 74); margin-bottom: 20px; margin-top: 30px;">| BEST DEAL</h3>
+                    <p>Find Your Best Deal</p>
+                    <p>Right Now!</p>
+                </div>
+
+                <div class="button" style="margin-top: 90px;">
+                    <button id="bt-active">Appartment</button>
+                    <button>Villa House</button>
+                    <button>Penthouse</button>
+                </div>
+            </div>
+            <img src="https://scontent.fhan14-1.fna.fbcdn.net/v/t1.15752-9/437296714_441191085084192_6093336184699774430_n.png?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFlHXuvYbCHoU_dgAdiFn73mkFXFHVYlPGaQVcUdViU8ZVvGZSz9oOKsw4VZ__s9snSkDZ5gPmzcnZiYsUZmGtr&_nc_ohc=F2URfbIFQgoQ7kNvgHVISsC&_nc_ht=scontent.fhan14-1.fna&oh=03_Q7cD1QEHEkih32nM4Qtt3-iNQ-XvYtF1_fmpMVx8n-roocXxEg&oe=6651F447" alt="" style="width: 1280px; margin-top: 20px;">
+        </div>
+    </div>
+
+    <!-- propertie -->
+    <div style="width: 100%; display: flex; flex-direction: column; gap: 20px; margin-top: 90px; justify-content: center; text-align: center;">
+        <p style="font-size: 15px; color: rgb(240, 136, 136); font-weight: bold;">| PROPERTIES</p>
+        <h1>We Provide The Best <br>Property You Like</h1>
+    </div>
+
+    <div class="pro" style="margin-top: 60px;">
+        <ul class="xx">
+            <li class="yy">
+                <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/property-01.jpg" alt="" style="border-radius: 10px;">
+                <div style="display: flex; justify-content: space-between; align-items: center; height: 70px; width: 350px;">
+                    <p style="font-size: 15px; padding: 7px 20px; border-radius:5px;background-color: #ffeee9;">Luxury Villa</p>
+                    <h3 style="color: rgb(241, 84, 36);">$2.264.000</h3>
+                </div>
+                <div style="width: 350px;">
+                    <h3 style="font-size: 17px;">18 New Street Miami, OR 97219</h3>
+                </div>
+
+                <ul style="width: 350px; display: flex; list-style: none; font-size: 14px; height: 20px; margin-top: 20px; justify-content: left; gap: 20px;">
+                    <li style="height: 20px; width: 100px;">
+                        <span>Bedrooms: <b>8</b></span>
+                    </li>
+                    <li style="height: 20px; width: 100px;">
+                        <span>Bathrooms: <b>8</b></span>
+                    </li>
+                </ul>
+
+                <ul style="width: 350px; display: flex; list-style: none; font-size: 14px; height: 20px; margin-top: 20px; justify-content: left; gap: 20px;">
+                    <li style="height: 20px; width: 100px;">
+                        <span>Area: <b>545m2</b></span>
+                    </li>
+                    <li style="height: 20px; width: 50px;">
+                        <span>Floor: <b>3</b></span>
+                    </li>
+
+                    <li style="height: 20px; width: 120px;">
+                        <span>Parking: <b>6spots</b></span>
+                    </li>
+                </ul>
+
+                <div style="margin-top: 40px;width: 100%;height: 0.7px; background-color: rgb(211, 210, 208);"></div>
+                
+                <button class="zz" style="margin-top: 35px; padding: 8px 20px; border: none; border-radius: 20px">
+                    <span>
+                        Schedule a visit
+                    </span>
+                </button>
+            </li>
+            <li class="yy">
+                <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/property-01.jpg" alt="" style="border-radius: 10px;">
+                <div style="display: flex; justify-content: space-between; align-items: center; height: 70px; width: 350px;">
+                    <p style="font-size: 15px; padding: 7px 20px; border-radius:5px;background-color: #ffeee9;">Luxury Villa</p>
+                    <h3 style="color: rgb(241, 84, 36);">$2.264.000</h3>
+                </div>
+                <div style="width: 350px;">
+                    <h3 style="font-size: 17px;">18 New Street Miami, OR 97219</h3>
+                </div>
+
+                <ul style="width: 350px; display: flex; list-style: none; font-size: 14px; height: 20px; margin-top: 20px; justify-content: left; gap: 20px;">
+                    <li style="height: 20px; width: 100px;">
+                        <span>Bedrooms: <b>8</b></span>
+                    </li>
+                    <li style="height: 20px; width: 100px;">
+                        <span>Bathrooms: <b>8</b></span>
+                    </li>
+                </ul>
+
+                <ul style="width: 350px; display: flex; list-style: none; font-size: 14px; height: 20px; margin-top: 20px; justify-content: left; gap: 20px;">
+                    <li style="height: 20px; width: 100px;">
+                        <span>Area: <b>545m2</b></span>
+                    </li>
+                    <li style="height: 20px; width: 50px;">
+                        <span>Floor: <b>3</b></span>
+                    </li>
+
+                    <li style="height: 20px; width: 120px;">
+                        <span>Parking: <b>6spots</b></span>
+                    </li>
+                </ul>
+
+                <div style="margin-top: 40px;width: 100%;height: 0.7px; background-color: rgb(211, 210, 208);"></div>
+                
+                <button class="zz" style="margin-top: 35px; padding: 8px 20px; border: none; border-radius: 20px">
+                    <span>
+                        Schedule a visit
+                    </span>
+                </button>
+            </li>
+            <li class="yy">
+                <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/property-01.jpg" alt="" style="border-radius: 10px;">
+                <div style="display: flex; justify-content: space-between; align-items: center; height: 70px; width: 350px;">
+                    <p style="font-size: 15px; padding: 7px 20px; border-radius:5px;background-color: #ffeee9;">Luxury Villa</p>
+                    <h3 style="color: rgb(241, 84, 36);">$2.264.000</h3>
+                </div>
+                <div style="width: 350px;">
+                    <h3 style="font-size: 17px;">18 New Street Miami, OR 97219</h3>
+                </div>
+
+                <ul style="width: 350px; display: flex; list-style: none; font-size: 14px; height: 20px; margin-top: 20px; justify-content: left; gap: 20px;">
+                    <li style="height: 20px; width: 100px;">
+                        <span>Bedrooms: <b>8</b></span>
+                    </li>
+                    <li style="height: 20px; width: 100px;">
+                        <span>Bathrooms: <b>8</b></span>
+                    </li>
+                </ul>
+
+                <ul style="width: 350px; display: flex; list-style: none; font-size: 14px; height: 20px; margin-top: 20px; justify-content: left; gap: 20px;">
+                    <li style="height: 20px; width: 100px;">
+                        <span>Area: <b>545m2</b></span>
+                    </li>
+                    <li style="height: 20px; width: 50px;">
+                        <span>Floor: <b>3</b></span>
+                    </li>
+
+                    <li style="height: 20px; width: 120px;">
+                        <span>Parking: <b>6spots</b></span>
+                    </li>
+                </ul>
+
+                <div style="margin-top: 40px;width: 100%;height: 0.7px; background-color: rgb(211, 210, 208);"></div>
+                
+                <button class="zz" style="margin-top: 35px; padding: 8px 20px; border: none; border-radius: 20px">
+                    <span>
+                        Schedule a visit
+                    </span>
+                </button>
+            </li>
+        </ul>
+        <ul class="xx">
+            <li class="yy">
+                <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/property-01.jpg" alt="" style="border-radius: 10px;">
+                <div style="display: flex; justify-content: space-between; align-items: center; height: 70px; width: 350px;">
+                    <p style="font-size: 15px; padding: 7px 20px; border-radius:5px;background-color: #ffeee9;">Luxury Villa</p>
+                    <h3 style="color: rgb(241, 84, 36);">$2.264.000</h3>
+                </div>
+                <div style="width: 350px;">
+                    <h3 style="font-size: 17px;">18 New Street Miami, OR 97219</h3>
+                </div>
+
+                <ul style="width: 350px; display: flex; list-style: none; font-size: 14px; height: 20px; margin-top: 20px; justify-content: left; gap: 20px;">
+                    <li style="height: 20px; width: 100px;">
+                        <span>Bedrooms: <b>8</b></span>
+                    </li>
+                    <li style="height: 20px; width: 100px;">
+                        <span>Bathrooms: <b>8</b></span>
+                    </li>
+                </ul>
+
+                <ul style="width: 350px; display: flex; list-style: none; font-size: 14px; height: 20px; margin-top: 20px; justify-content: left; gap: 20px;">
+                    <li style="height: 20px; width: 100px;">
+                        <span>Area: <b>545m2</b></span>
+                    </li>
+                    <li style="height: 20px; width: 50px;">
+                        <span>Floor: <b>3</b></span>
+                    </li>
+
+                    <li style="height: 20px; width: 120px;">
+                        <span>Parking: <b>6spots</b></span>
+                    </li>
+                </ul>
+
+                <div style="margin-top: 40px;width: 100%;height: 0.7px; background-color: rgb(211, 210, 208);"></div>
+                
+                <button class="zz" style="margin-top: 35px; padding: 8px 20px; border: none; border-radius: 20px">
+                    <span>
+                        Schedule a visit
+                    </span>
+                </button>
+            </li>
+            <li class="yy">
+                <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/property-01.jpg" alt="" style="border-radius: 10px;">
+                <div style="display: flex; justify-content: space-between; align-items: center; height: 70px; width: 350px;">
+                    <p style="font-size: 15px; padding: 7px 20px; border-radius:5px;background-color: #ffeee9;">Luxury Villa</p>
+                    <h3 style="color: rgb(241, 84, 36);">$2.264.000</h3>
+                </div>
+                <div style="width: 350px;">
+                    <h3 style="font-size: 17px;">18 New Street Miami, OR 97219</h3>
+                </div>
+
+                <ul style="width: 350px; display: flex; list-style: none; font-size: 14px; height: 20px; margin-top: 20px; justify-content: left; gap: 20px;">
+                    <li style="height: 20px; width: 100px;">
+                        <span>Bedrooms: <b>8</b></span>
+                    </li>
+                    <li style="height: 20px; width: 100px;">
+                        <span>Bathrooms: <b>8</b></span>
+                    </li>
+                </ul>
+
+                <ul style="width: 350px; display: flex; list-style: none; font-size: 14px; height: 20px; margin-top: 20px; justify-content: left; gap: 20px;">
+                    <li style="height: 20px; width: 100px;">
+                        <span>Area: <b>545m2</b></span>
+                    </li>
+                    <li style="height: 20px; width: 50px;">
+                        <span>Floor: <b>3</b></span>
+                    </li>
+
+                    <li style="height: 20px; width: 120px;">
+                        <span>Parking: <b>6spots</b></span>
+                    </li>
+                </ul>
+
+                <div style="margin-top: 40px;width: 100%;height: 0.7px; background-color: rgb(211, 210, 208);"></div>
+                
+                <button class="zz" style="margin-top: 35px; padding: 8px 20px; border: none; border-radius: 20px">
+                    <span>
+                        Schedule a visit
+                    </span>
+                </button>
+            </li>
+            <li class="yy">
+                <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/property-01.jpg" alt="" style="border-radius: 10px;">
+                <div style="display: flex; justify-content: space-between; align-items: center; height: 70px; width: 350px;">
+                    <p style="font-size: 15px; padding: 7px 20px; border-radius:5px;background-color: #ffeee9;">Luxury Villa</p>
+                    <h3 style="color: rgb(241, 84, 36);">$2.264.000</h3>
+                </div>
+                <div style="width: 350px;">
+                    <h3 style="font-size: 17px;">18 New Street Miami, OR 97219</h3>
+                </div>
+
+                <ul style="width: 350px; display: flex; list-style: none; font-size: 14px; height: 20px; margin-top: 20px; justify-content: left; gap: 20px;">
+                    <li style="height: 20px; width: 100px;">
+                        <span>Bedrooms: <b>8</b></span>
+                    </li>
+                    <li style="height: 20px; width: 100px;">
+                        <span>Bathrooms: <b>8</b></span>
+                    </li>
+                </ul>
+                <ul style="width: 350px; display: flex; list-style: none; font-size: 14px; height: 20px; margin-top: 20px; justify-content: left; gap: 20px;">
+                    <li style="height: 20px; width: 100px;">
+                        <span>Area: <b>545m2</b></span>
+                    </li>
+                    <li style="height: 20px; width: 50px;">
+                        <span>Floor: <b>3</b></span>
+                    </li>
+
+                    <li style="height: 20px; width: 120px;">
+                        <span>Parking: <b>6spots</b></span>
+                    </li>
+                </ul>
+
+                <div style="margin-top: 40px;width: 100%;height: 0.7px; background-color: rgb(211, 210, 208);"></div>
+                
+                <button class="zz" style="margin-top: 35px; padding: 8px 20px; border: none; border-radius: 20px">
+                    <span>
+                        Schedule a visit
+                    </span>
+                </button>
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- | CONTACT US -->
+    <div class="view" style="background-image: url('	https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/contact-bg.jpg'); height: 600px; margin-top: 70px;">
+        <p style="font-weight: bold; color: rgb(224, 87, 52); margin-bottom: 20px; margin-top: -200px;">| CONTACT US</p>
+        <h1>Get In Touch With<br> Our Agents</h1>
+    </div>
+
+    <!-- map-->
+    <div style="display: flex; justify-content: space-between;position: absolute; width: 900px; height: 600px;top: 5120px">
+        <div style="width: 520px; height: 600px">
+            <iframe style="border-radius: 10px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d64497.39987170796!2d127.72572254935017!3d35.90774996361297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356455ebcb11ba9b%3A0x91249b00ba88db4b!2zSMOgbiBRdeG7kWM!5e1!3m2!1svi!2s!4v1714064555521!5m2!1svi!2s" width="520" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div style="display: flex; justify-content: space-between; height: 100px;margin-top: 45px; width: 100%"">
+                <div class="ft">
+                    <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/phone-icon.png" alt="" style="width: 40px; height: 40px;">
+                    <div>
+                        <h3>010-020-0340</h3>
+                        <p>Phone Number</p>
+                    </div>
+                </div>
+                <div class="ft">
+                    <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/email-icon.png" alt="" style="width: 40px; height: 30px;">
+                    <div>
+                        <h3>info@villa.co</h3>
+                        <p>Business Email</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="display: flex;flex-direction: column;gap: 20px;padding: 0px 20px;width: 300px; height: 600px; background-color: rgb(255, 255, 255);   box-shadow: 0 0 10px 5px rgba(223, 217, 217, 0.5); border-radius: 10px;">
+            <div class="pr" style="margin-top: 30px;">
+                <label for="">Full Name</label>
+                <input type="" name="" id="" placeholder="Your Name...">
+            </div>
+            <div class="pr">
+                <label for="">Email Address</label>
+                <input type="email" name="" id="" placeholder="Your E-mail...">
+            </div>
+            <div class="pr">
+                <label for="">Subject</label>
+                <input type="" name="" id="" placeholder="Subject">
+            </div>
+            <div class="pr">
+                <label for="">Message</label>
+                <input type="text" name="" id="" placeholder="Your Message" style="height: 150px;">
+            </div>
+            <button id="bt-pr" style="margin-top: 20px; background-color: black; width: 120px; padding: 10px 10px;border-radius: 30px;">
+                <span>Send Message</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <p>Copyright © 2048 Villa Agency Co., Ltd. All rights reserved. Design: TemplateMo</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
